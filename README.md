@@ -14,8 +14,8 @@ PostgreSQL relational database modeling galaxies, stars, planets, and moons. Cre
 - `planet_types`
 
 ## Setup
-- psql -U postgres -f universe_local.sql
-- psql -U postgres -d universe
+psql -U postgres -f universe_local.sql
+psql -U postgres -d universe
 
 
 ## Example query
